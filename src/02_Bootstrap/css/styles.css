@@ -1,0 +1,200 @@
+/* General */
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+/* Title section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title image */
+
+.title-image {
+    width: 60%;
+    position: absolute;
+    right: 30%;
+    /* transform: rotate(25deg); now as a different class, so the image is straight in smaller devices and is only rotated in bigger ones*/
+}
+
+.rotated {
+    transform: rotate(25deg);
+}
+/* we use this separate "rotated" class instead of inside "title-image" because we only want it rotated in smaller devides and we need to be able to show the image straight in smaller devices */
+
+/*Download buttons*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*Features section*/
+
+#features {
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; not needed because this is positioned after .title image in the html order, so it will prevail and be on top*/
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icons-features {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icons-features:hover {
+    color: #ff4c68;
+}
+
+/*Testimonial section*/
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    color: #fff;
+}
+
+/* Press section*/
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Footer section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.social-icon:hover {
+    color: #8f8f8f;
+}
+
+/* Media conditions, for different device sizes */
+
+/* @media <type> <feature> */
+
+@media only screen and (max-width: 1028px) {
+    #title {
+      text-align: center;
+    } 
+  
+    .title-image {
+      position: static;
+      transform: rotate(0deg);
+    }
+  }
