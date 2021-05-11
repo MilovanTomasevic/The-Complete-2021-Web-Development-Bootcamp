@@ -3,7 +3,7 @@ Become a full-stack web developer with just one course. HTML, CSS, Javascript, N
 
 ### Certifications
 
-- [Certificate](https://nlb.udemy.com/certificate/UC-3d48f525-6199-4ca5-ac77-82a5d9b1c1c2/)
+- [Certificate](https://udemy.com/certificate/UC-3d48f525-6199-4ca5-ac77-82a5d9b1c1c2/)
 
 ### Awknowledgements
 
